@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: user
+server:
+  port: 8083
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:password@localhost:8761/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    prefer-ip-address: true
+feign:
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
+  compression:
+    request:
+      enabled: true
+      min-request-size: 2048
+      mime-types: text/xml,application/xml,application/json
+    response:
+      enabled: true
+  hystrix:
+    enabled: true
+management:
+  endpoints:
+    web:
+      base-path: /

@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    config:
+      uri: http://localhost:8085
+      profile: test
+      label: master   # 当configserver的后端存储是Git时，默认就是master
+      name: user-dao
+  rabbitmq:                                #本地环境不需要配置mq
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
