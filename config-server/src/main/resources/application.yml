@@ -9,12 +9,12 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/beauthes/configuration_center
+          uri: https://github.com/beauthes/configserver.git
           username: 1025521973@qq.com
           password: ren19961030
   application:
     name: config-server
-  rabbitmq:                    #±¾µØ»·¾³²»ÐèÒªÅäÖÃmq£¬µ«ÊÇÐèÒªÆô¶¯mq,Springboot»á×Ô¶¯Á¬½Ó±¾µØmq
+  rabbitmq:                    #ï¿½ï¿½ï¿½Ø»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½mqï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½mq,Springbootï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½Ó±ï¿½ï¿½ï¿½mq
     host: localhost
     port: 5672
     username: guest

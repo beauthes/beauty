@@ -1,0 +1,23 @@
+server:
+  port: 8088
+spring:
+  application:
+    name: hystrix-turbine
+eureka:
+  client:
+    service-url:
+      defaultZone: http://user:password@localhost:8761/eureka
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5
+turbine:
+  aggregator:
+    cluster-config:  default
+  app-config: user
+  cluster-name-expression: new String("default")
+  instanceUrlSuffix: /hystrix.stream
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'

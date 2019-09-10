@@ -9,7 +9,7 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/beauthes/configuration_center
+          uri: https://github.com/beauthes/configserver.git
           username: 1025521973@qq.com
           password: ren19961030
   application:

@@ -28,6 +28,8 @@
         <module>user</module>
         <module>user-dao</module>
         <module>config-server</module>
+        <module>hystrix-dashboard</module>
+        <module>hystrix-turbine</module>
     </modules>
     <dependencies>
         <dependency>

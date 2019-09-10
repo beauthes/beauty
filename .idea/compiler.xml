@@ -8,6 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
         <module name="eureka" />
+        <module name="hystrix-dashboard" />
+        <module name="hystrix-turbine" />
         <module name="user" />
         <module name="user-dao" />
         <module name="zuul" />
@@ -15,8 +17,11 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="beauty" target="1.8" />
+      <module name="config" target="1.8" />
       <module name="config-server" target="1.8" />
       <module name="eureka" target="1.8" />
+      <module name="hystrix-dashboard" target="1.8" />
+      <module name="hystrix-turbine" target="1.8" />
       <module name="user" target="1.8" />
       <module name="user-dao" target="1.8" />
       <module name="zuul" target="1.8" />

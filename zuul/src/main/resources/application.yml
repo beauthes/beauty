@@ -11,7 +11,7 @@ eureka:
     prefer-ip-address: true
 zuul:
   host:
-    connect-timeout-millis: 15000 #HTTP连接超时要比Hystrix的大
-    socket-timeout-millis: 60000   #socket超时
+    connect-timeout-millis: 15000
+    socket-timeout-millis: 60000
   routes:
     user: /users/**
