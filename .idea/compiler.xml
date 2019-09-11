@@ -12,6 +12,7 @@
         <module name="hystrix-turbine" />
         <module name="user" />
         <module name="user-dao" />
+        <module name="zipkin" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
@@ -24,6 +25,7 @@
       <module name="hystrix-turbine" target="1.8" />
       <module name="user" target="1.8" />
       <module name="user-dao" target="1.8" />
+      <module name="zipkin" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>

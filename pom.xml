@@ -20,6 +20,7 @@
         <java.version>1.8</java.version>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <lombok.version>1.18.0</lombok.version>
+        <zipkin.version>2.11.9</zipkin.version>
     </properties>
 
     <modules>
@@ -30,6 +31,7 @@
         <module>config-server</module>
         <module>hystrix-dashboard</module>
         <module>hystrix-turbine</module>
+        <module>zipkin</module>
     </modules>
     <dependencies>
         <dependency>
