@@ -14,7 +14,7 @@ spring:
           password: ren19961030
   application:
     name: config-server
-  rabbitmq:                    #���ػ�������Ҫ����mq��������Ҫ����mq,Springboot���Զ����ӱ���mq
+  rabbitmq:
     host: localhost
     port: 5672
     username: guest

@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */
 @FeignClient(name = "user-dao",fallback = UserFeignHystrix.class)
 public interface UserFeignClient {
-    @RequestMapping(value = "/user/test",method = RequestMethod.GET)
+    @RequestMapping(value = "/test123",method = RequestMethod.GET)
     String test();
 }

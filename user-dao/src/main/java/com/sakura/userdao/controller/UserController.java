@@ -15,8 +15,7 @@ public class UserController {
     @Value("${foo}")
     String foo;
 
-
-    @GetMapping("/user/test")
+    @GetMapping("/test123")
     public String save(){
         return foo;
     };
